@@ -1,2 +1,14 @@
+@import './utils/vars';
+@import './utils/mixins';
+@import './utils/placeholders';
+@import './base/common';
+@import './base/container';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/clients';
+@import './layout/services';
+@import './layout/projects';
+@import './layout/deation';
+@import './layout/footer';
 @import './layout/call_to_action';
 @import './example';
