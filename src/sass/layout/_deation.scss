@@ -23,28 +23,25 @@
 .deation-list__title {
     font-size: 24px;
     color: $add-green;
+    font-weight: 500;
+    line-height: 43px;
+    text-transform: uppercase;
 }
 .deation-list__text {
     font-size: 14px;
+    color: $main-color;
+    font-weight: 500;
+    line-height: 26px;
+    height: 104px;
+}
+.deation__link-container {
+    display: flex;
+    align-items: center;
 }
 .deation-list__link {
     color: $accent-color;
     text-decoration: underline;
 }
-//   .benefits-list__title {
-//     color: $title-color;
-//     font-size: 24px;
-//     font-weight: 500;
-//     line-height: 43px;
-//     text-transform: uppercase;
-//   }
-//   .benefits__text {
-//     color: $text-color;
-//     font-size: 14px;
-//     font-weight: 500;
-//     line-height: 26px;
-//     height: 104px;
-//   }
 //   .benefits__link-container {
 //     display: flex;
 //     align-items: center;
