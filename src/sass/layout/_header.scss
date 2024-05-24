@@ -1,0 +1,37 @@
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    position: absolute;
+    background-color: transparent;
+    top: 24px;
+    left: 0;
+}
+.logo__link {
+    font-size: 24px;
+    font-weight: 700;
+    color: $add-white;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo__icon {
+    margin-right: -110px;
+}
+.burger__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f6f7;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    &:hover, &:focus {
+        cursor: pointer;
+        background-color: $accent-color;
+    }
+}
+
