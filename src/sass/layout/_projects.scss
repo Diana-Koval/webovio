@@ -32,7 +32,7 @@
 .project-comment{
     background-color:$add-white;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
     padding-right: 33px;
     padding-left: 30px;
 }
@@ -45,7 +45,8 @@
 .project-comment__img{
 width: 46px;
 height: 46px;
-border-radius: 50% solid 20px 25px 43px 0 rgba(0, 0, 0, 0.18);
+border-radius:50%;
+box-shadow:20px 25px 43px 0 rgba(0, 0, 0, 0.18);
 }
 .project-comment__name{
         font-weight: 700;
