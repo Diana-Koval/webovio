@@ -37,7 +37,7 @@
         color: $accent-color;
     }
 }  
-.hero__link:hover .hero__link .link-load-more, .hero__link:focus .hero__link .link-load-more {
+.hero__link:hover .hero__link-load-more, .hero__link:focus .hero__link-load-more {
         fill: $accent-color;
 }
 .link-load-more {
