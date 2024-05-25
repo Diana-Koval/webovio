@@ -11,11 +11,7 @@
 }
 .deation__item {
   padding: 27px 31px 36px 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   width: 255px;
-  height: 309px;
 }
 .deation-list__title {
   font-size: 24px;
@@ -23,14 +19,28 @@
   font-weight: 500;
   line-height: 43px;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
-.benefits__text {
-    color: $main-color;
+.deation-list__text {
+  color: $main-color;
   font-size: 14px;
   font-weight: 500;
   line-height: 26px;
   height: 104px;
+  margin-bottom: 30px;
 }
 .deation-list__link {
+  color: $add-gray;
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  transition: color 100ms ease-in;
+  &:hover .link-load-more,
+  &:focus .link-load-more {
+    fill: $accent-color;
+  }
+  &:hover,
+  &:focus {
     color: $accent-color;
+  }
 }
