@@ -36,12 +36,9 @@
         cursor: pointer;
         color: $accent-color;
     }
-}
-.hero .link-load-more {
-    margin-right: -140px;
-    .hero__link:hover .hero .link-load-more, .hero__link:focus .hero .link-load-more {
+}  
+.hero__link:hover .hero__link-load-more, .hero__link:focus .hero__link-load-more {
         fill: $accent-color;
-    }
 }
 .link-load-more {
     fill: $add-gray;
