@@ -1,13 +1,17 @@
-.clients{
-    padding-top: 60px;
-    padding-bottom: 54px;
-    position: absolute;
-    background-color: $add-white;
-    transform: translateX(40%);
+.clients {
+  position: relative;
+ 
+
 }
-.clients__list{
-    display: flex;
-    gap: 66px;
-    padding-left: 65px;
-    padding-right: 166px;
+.clients__list {
+  @include flex(66);
+background-color: $add-white;
+  position: absolute;
+  top: -124px;
+  right: 0;
+  padding-top: 60px;
+  padding-bottom: 54px;
+  padding-left: 65px;
+  padding-right: 166px;
+box-shadow: 50px 50px 100px 0 rgba(0, 0, 0, 0.15);
 }
