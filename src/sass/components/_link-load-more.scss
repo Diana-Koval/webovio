@@ -1,0 +1,7 @@
+.link-load-more {
+    fill: $add-gray;
+    &:hover, &:focus {
+        fill: $accent-color;
+        cursor: pointer;
+    }
+}

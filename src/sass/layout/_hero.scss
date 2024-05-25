@@ -40,10 +40,3 @@
 .hero__link:hover .hero__link-load-more, .hero__link:focus .hero__link-load-more {
         fill: $accent-color;
 }
-.link-load-more {
-    fill: $add-gray;
-    &:hover, &:focus {
-        fill: $accent-color;
-        cursor: pointer;
-    }
-}
