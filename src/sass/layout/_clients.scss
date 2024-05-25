@@ -1,0 +1,13 @@
+.clients{
+    padding-top: 60px;
+    padding-bottom: 54px;
+    position: absolute;
+    background-color: $add-white;
+    transform: translateX(40%);
+}
+.clients__list{
+    display: flex;
+    gap: 66px;
+    padding-left: 65px;
+    padding-right: 166px;
+}
