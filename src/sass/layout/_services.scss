@@ -4,7 +4,11 @@
 .services .container{
     display: flex;
 }
+.services__text-div{
+    padding-top: 244px;
+}
 .services__text{
+    margin-bottom: 29px;
     font-weight: 400;
         font-size: 14px;
         color: rgba(77, 83, 60, 0.9);
@@ -13,6 +17,7 @@
   @extend %text-title;  
 line-height: 128%;
 font-weight: 700;
+margin-bottom: 35px;
 }
 .services__title-span{
 background-color: $accent-color;
@@ -22,8 +27,9 @@ background-color: $accent-color;
         font-size: 16px;
         line-height: 162%;
         color: rgba(33, 56, 66, 0.6);
+        margin-bottom: 15px;
 }
-.services__link{
+.services__link-load-more{
     font-weight: 400;
         font-size: 16px;
         line-height: 162%;
@@ -33,8 +39,10 @@ background-color: $accent-color;
 .services__icon{
     fill:rgba(33, 56, 66, 0.6); 
 }
+
 .services-div__text{
-padding-top: 144px;
+    padding-top: 244px;
+    padding-bottom: 50px;
     font-style: italic;
         font-weight: 400;
         font-size: 24px;
@@ -42,6 +50,7 @@ padding-top: 144px;
         color: $add-green;
 }
 .services-text-div__subtitle{
+    margin-bottom: 6px;
     font-weight: 700;
         font-size: 22px;
         color: $add-green;
