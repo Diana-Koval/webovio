@@ -1,0 +1,53 @@
+.services{
+    padding-bottom: 150px;
+}
+.services .container{
+    display: flex;
+}
+.services__text{
+    font-weight: 400;
+        font-size: 14px;
+        color: rgba(77, 83, 60, 0.9);
+}
+.services__title{
+  @extend %text-title;  
+line-height: 128%;
+font-weight: 700;
+}
+.services__title-span{
+background-color: $accent-color;
+}
+.services__text-description{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: rgba(33, 56, 66, 0.6);
+}
+.services__link{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: rgba(33, 56, 66, 0.6);
+        text-decoration: underline;
+}
+.services__icon{
+    fill:rgba(33, 56, 66, 0.6); 
+}
+.services-div__text{
+padding-top: 144px;
+    font-style: italic;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 167%;
+        color: $add-green;
+}
+.services-text-div__subtitle{
+    font-weight: 700;
+        font-size: 22px;
+        color: $add-green;
+}
+.services-text-div__text{
+    font-weight: 400;
+        font-size: 16px;
+        color: #152934;
+}
