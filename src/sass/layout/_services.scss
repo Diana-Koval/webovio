@@ -35,9 +35,18 @@
   text-decoration: underline;
   display: flex;
     align-items: center;
+    &:hover,
+      &:focus {
+        cursor: pointer;
+        color: $accent-color;
+      }
 }
 .services__icon {
   fill: rgba(33, 56, 66, 0.6);
+}
+.services__link-load-more:hover .services__icon,
+.services__link-load-more:focus .services__icon {
+  fill: $accent-color;
 }
 .services-div{
 box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
