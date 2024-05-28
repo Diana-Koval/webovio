@@ -48,6 +48,7 @@ box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
   width: 474px;
   padding-left: 40px;
 padding-bottom: 60px;
+align-items: center;
 }
 .services-div__text {
   padding-top: 244px;
@@ -61,6 +62,9 @@ padding-bottom: 60px;
 }
 .services-img-div_img{
   border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  margin-right: 30px;
   box-shadow: 0 100px 100px 0 rgba(0, 0, 0, 0.15);
 }
 .services-text-div__subtitle {
